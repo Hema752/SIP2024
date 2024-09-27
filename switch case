@@ -1,0 +1,28 @@
+#include<stdio.h>
+void main()
+{
+    int n1,n2;
+    char h;
+    printf("enter n1,n2 values :");
+    scanf("%d %d",&n1,&n2);
+    printf("enter the operator :");
+    scanf(" %c",&h);
+    switch(h)
+    {
+        case '+':
+        printf("the sum is : %d",n1+n2);
+        break;
+        case '-':
+        printf("the difference is : %d",n1-n2);
+        break;
+        case '*':
+        printf("the multiply is : %d",n1*n2);
+        break;
+        case'/':
+        printf("the division is : %d",n1/n2);
+        break;
+        case'%':
+        printf("the modulo is : %d",n1%n2);
+        break;
+     }
+}
