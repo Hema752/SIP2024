@@ -1,0 +1,17 @@
+#include<stdio.h>
+void main()
+{
+    int a=30,b=40;
+    /*binary digit for 30=00011110,40=00101000
+    &=tt-t else-f;// |=tt-t tf-t ft-t else-f; ^=tt-f tf-t ft-t else-f;
+    ~a-add mins symbol and add 1 
+    a<<3 have to shift left 3 times 
+    b>>1 have to shift right 1 times*/
+     printf("%d \n",a&b);
+    printf("%d \n",a|b);
+    printf("%d \n",a^b);
+    printf("%d \n",~a);
+    printf("%d \n",a<<3);
+    printf("%d \n",b>>1);
+   
+}
