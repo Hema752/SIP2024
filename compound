@@ -1,0 +1,10 @@
+#include<stdio.h>
+void main()
+{
+    double p,r,ci;
+    scanf("%lf %lf",&p,&r);
+    ci=p*(1+r)/100;
+    printf("the compound interest is :%lf",ci);
+}
+   
+
