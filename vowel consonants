@@ -1,0 +1,21 @@
+#include<stdio.h>
+int main()
+{
+   char ch;
+   int lowercase_vowel,uppercase_vowel;
+   printf("enter a character :");
+   scanf(" %c",&ch);
+   lowercase_vowel=(ch=='a'||ch=='e'||ch=='i'||ch=='o'||ch=='u');
+   uppercase_vowel=(ch=='A'||ch=='E'||ch=='I'||ch=='O'||ch=='U');
+   if(uppercase_vowel||lowercase_vowel)
+   {
+       printf("It is a vowel");
+        
+    }
+   else
+   {
+       printf("It is a consonant");
+   }
+   return 0;
+} 
+
